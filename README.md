@@ -1,5 +1,5 @@
 
-# 📊 UYUM -Shaolin Keşişleri-
+# 📊 COHERENCE -Shaolin Kesisleri-
 
 Empowering Talent Acquisition with Automation and Innovation
 This project supports SDG 8: Decent Work and Economic Growth by providing an automated solution for efficient recruitment, helping companies and HR teams match talent with the right skills, leading to better employment opportunities and economic development.
@@ -26,7 +26,7 @@ Automate and streamline LinkedIn profile data fetching, processing, and analysis
 
 ## 📝 Introduction
 
-This project provides an automated approach to handle LinkedIn profile data, ideal for HR teams and recruitment agencies. By leveraging the LinkedIn API and sentence-transformer models, UYUM enhances recruitment by enabling:
+This project provides an automated approach to handle LinkedIn profile data, ideal for HR teams and recruitment agencies. By leveraging the LinkedIn API and sentence-transformer models, Coherence enhances recruitment by enabling:
 
 1. Collecting employee profile data for specific companies.
 2. Matching and ranking candidates based on their similarity to company profiles.
@@ -64,8 +64,8 @@ Here’s a breakdown of the main files in the project:
 ### Installation
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/your-repo/Uyum.git
-cd Uyum
+git clone https://github.com/DiamondRain0/Coherence.git
+cd Coherence
 pip install -r requirements.txt
 ```
 
@@ -88,12 +88,12 @@ To make deployment easier, you can containerize the project with Docker.
 
 1. **Build the Docker image:**
    ```bash
-   docker build -t Uyum .
+   docker build -t Coherence .
    ```
 
 2. **Run the Docker container:**
    ```bash
-   docker run -p 8000:8000 Uyum
+   docker run -p 8000:8000 Coherence
    ```
 
 > **Note:** The Dockerfile uses Python 3.9-slim as the base image and installs dependencies from `requirements.txt`. It runs the specified Python script when the container starts.
